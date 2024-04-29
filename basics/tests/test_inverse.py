@@ -1,4 +1,4 @@
-from basics.src.inverse import inverse
+from basics.src.inverse import inverse, minus
 import pytest
 
 def test_long_list():
@@ -17,3 +17,6 @@ def test_lower_cases():
 def test_lower_cases_four_elements():
     assert inverse("hell") == "lleh"    
 
+def test_minus():
+    result = minus(8,2)
+    assert True
