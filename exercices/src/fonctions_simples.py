@@ -5,8 +5,9 @@ from random import uniform
 def add(a,b):
     return a+b
 
-
 def divide(a,b):
+    if b ==0:
+        raise ZeroDivisionError("Division by zero")
     return a/b
 
 def add_integer(a,b):
