@@ -16,26 +16,7 @@ def inverse(chaine):
 def minus(a,b):
     return a-b
 
-def square_numbers_1(numbers):
 
-    squared_numbers = []
-    for num in numbers:
-        squared_numbers.append(num ** 2)
-    return squared_numbers
-
-def square_numbers_2(numbers):
-
-    squared_numbers = []
-    for num in numbers:
-        squared_numbers.append(num ** 2)
-    return squared_numbers
-
-def square_numbers_3(numbers):
-
-    squared_numbers = []
-    for num in numbers:
-        squared_numbers.append(num ** 2)
-    return squared_numbers
 
 if __name__ == "__main__": # si j'execute ce fichier directement et non par import
     print(inverse(["a", "b", "c", "d"]))
