@@ -6,6 +6,11 @@ def test_input_function_fois_deux():
     with patch('builtins.input', return_value='3'):
         assert input_function_fois_deux() == 6
 
+def test_input_function_fois_deux_monkey(monkeypatch):
+    with patch('builtins.input', return_value='3'):
+        assert input_function_fois_deux() == 6
+
+
 # def test_create_file():
 #     create_file("exercices/src/liste_apprennants.txt","\nAlfred")
 #     with open("exercices/src/liste_apprennants.txt", "r") as fichier:

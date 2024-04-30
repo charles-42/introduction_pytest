@@ -112,6 +112,8 @@ pytest --cov
 pytest --cov --cov-fail-under=95
 ```
 
+Pour en savoir plus [cours openclassroom](https://openclassrooms.com/fr/courses/7747411-test-your-python-project/7895249-measure-your-code-coverage)
+
 ## Conclusion
 
 Avoir un code testé possède de nombreux avantages:
